@@ -1,0 +1,183 @@
+body {
+  background-image: url("https://res.cloudinary.com/dani-devs-and-designs/image/upload/v1526746813/theDude3_p5lym8.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* keeps page within screen boundaries */
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+  padding: 0px;  
+  width: 100%;
+}
+
+a:link {
+  color: white;
+}
+
+p {
+  font-family: Homemade Apple;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+}
+
+.quote {
+  color: white;
+  font-family: Lobster;
+  font-size: 4.5vw;
+  left: 50%;
+  margin-top: 30%;
+  position: absolute;
+  text-align: center;
+  text-shadow: 6px 6px 12px #080808;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+
+.donny-etc {
+  font-size: 1.7vw;
+  left: 15%;
+  margin-top: 35%;
+  text-align: left;
+}
+
+.tweet-it {
+  font-size: 2.2vw;
+  left: 40%;
+  margin-top: 35%;
+}
+
+.tweety-bird {
+  left: 80%;
+  margin-top: 32%;
+  position: absolute;
+}
+
+.btn.another-quote,
+.btn.twitter-button {
+  background-color: black;
+  border: none;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.5), 0 9px 30px 0 rgba(0, 0, 0, 0.25);
+  color: white;
+  font-family: Merriweather;
+  font-size: 2.5vw;
+  position: absolute; 
+  text-align: center;
+  user-select: none;
+}
+
+.btn.another-quote {
+  left: 5%;
+  margin-top: 10%;
+}
+
+.btn.twitter-button {
+  margin-top: 9.75%;
+  right: 5%;
+}
+
+.btn.another-quote:hover,
+.btn.twitter-button:hover {
+  background-color: #a41b1d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  transition: 0.5s;
+  user-select: none;
+}
+
+.btn.another-quote:active,
+.btn.another-quote:focus,
+.btn.twitter-button:active,
+.btn.twitter-button:focus {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  outline: 0;
+}
+
+.bottom-left {
+  bottom: 1%;
+  color: white;
+  font-family: Lobster;
+  left: 1%;
+  position: absolute;
+  text-shadow: 2px 2px 4px #1f2128;  
+  user-select: none;
+}
+
+.bottom-right {
+  bottom: 1%;
+  color: white;
+  position: absolute;  
+  right: 1%;
+  text-shadow: 2px 2px 4px #1f2128;
+  user-select: none;  
+}
+
+.coded-by {
+  color: white;
+  font-family: Tahoma;
+}
+
+.blurp {
+  font-family: Lobster;
+  user-select: none;
+}
+
+/* responsive resizing */
+/* iPad Pro */
+@media only screen and (max-width: 1024px) {
+  .quote {
+    margin-top: 50%;
+  }
+}
+
+/* iPad */
+@media only screen and (max-width: 768px) {
+  .blurp,
+  .coded-by,
+  .donny-etc,
+  .tweety-bird,
+  .tweet-it {
+    display: none;
+  }
+  .quote {
+    font-size: 7vw;
+    margin-top: 60%;
+  }
+  .btn.another-quote, 
+  .btn.twitter-button {
+    font-size: 3.2vw;
+  }
+}
+
+/* mobile phone screens */
+@media only screen and (max-width: 480px) {
+  .btn.another-quote {
+    font-size: 4vw;
+    left: 50%;
+    margin-right: -50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .btn.twitter-button {
+    font-size: 4vw;
+    left: 50%;
+    margin-top: 160%;
+    margin-right: -50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .quote {
+    font-size: 8vw;
+    left: 50%;
+    top: 20%;
+    padding: 0;
+  }
+}

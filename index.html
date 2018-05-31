@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- <meta name="description" content="Random Quote Machine by Danielle Booysen for freeCodeCamp"> -->
+  <link rel="stylesheet" type="text/css" href="randomQuoteMachine.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Merriweather|Monoton" rel="stylesheet">
+	<title>The Big Lebowski Random Quotonator</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row row-grid">
+      <div class="col-sm-6">
+        <button id="the-button" type="button" class="btn another-quote" onclick="getQuote()">CLICK HERE FOR DUDISM</button>
+      </div>
+      <div class="col-sm-6"><button id="twitter-button" type="button" class="btn twitter-button">ARE YOU THE WALRUS?</button>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12 center-block" style="float:none">
+        <span id="quote" class="quote"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row row-grid">
+      <div class="col-sm-4">
+        <p id="donny-etc" class="hidden-md-down donny-etc"><strong>( and for 
+      <br/>
+      other random
+      <br/>
+      Lebowski quotes )</strong></p>
+      </div>
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4">
+        <!--        <div class="tweet-it"> -->
+        <p class="tweet-it"><strong>Tweet it!</strong></p>
+        <img src="https://res.cloudinary.com/dani-devs-and-designs/image/upload/v1527332738/tweety_bwmys4.png" id="tweety-bird" class="hidden-md-down tweety-bird" style="width:12%" alt="twitter icon">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="artist" class="bottom-left">This awesome Wallpaper by <a href="https://www.behance.net/bubblegun" target="_blank">Bubble Gun</a></div>
+  <div id="coded-by" class="bottom-right coded-by">
+    Designed & developed by <a href="http://daniellebooysen.com/" target="_blank">Danielle Booysen</a>
+    <br/>
+    <text class="blurp">Cooking fiendishly good-looking web stuff since 2018</text>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="randomQuoteMachine.js"></script>
+</body>
+</html>
