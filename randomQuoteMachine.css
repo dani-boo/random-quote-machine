@@ -169,15 +169,15 @@ p {
   .btn.twitter-button {
     font-size: 4vw;
     left: 50%;
-    margin-top: 140%;
+    margin-top: 150%;
     margin-right: -50%;
     top: 50%;
     transform: translate(-50%, -50%);
   }
   .quote {
-    font-size: 7.5vw;
+    font-size: 7vw;
     left: 50%;
-    top: 15%;
+    top: 10%;
     padding: 0;
   }
 }
